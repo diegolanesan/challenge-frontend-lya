@@ -60,7 +60,7 @@ function App() {
       </Tasks>
 
       {!!isOpen && <Modal>
-        <TaskForm textAction="Add a task" taskAction={addTask} task="" isOpen={isOpen} setIsOpen={setIsOpen}/>
+        <TaskForm textAction="Crear una tarea" taskAction={addTask} task="" isOpen={isOpen} setIsOpen={setIsOpen}/>
       </Modal>
       }
 

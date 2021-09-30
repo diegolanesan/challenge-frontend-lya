@@ -55,7 +55,7 @@ const Task = ({task, onComplete, editTask, onDelete}) => {
             </HStack>
             
             {!!isOpen && <Modal>
-                <TaskForm textAction="Edit task" taskAction={editTask} task={task} isOpen={isOpen} setIsOpen={setIsOpen} isEditing={isEditing} />
+                <TaskForm textAction="Editar tarea" taskAction={editTask} task={task} isOpen={isOpen} setIsOpen={setIsOpen} isEditing={isEditing} />
             </Modal>
             }
         </HStack>

@@ -7,7 +7,7 @@ const Search = ({searchValue, setSearchValue}) => {
     }
     
     return (
-        <Input type="text" placeholder="Search a task" onChange={handleChange} w="95%"/>
+        <Input type="text" placeholder="Busca una tarea" onChange={handleChange} w="95%"/>
     )
 }
 
