@@ -1,0 +1,16 @@
+import {Input} from '@chakra-ui/react'
+
+const Search = ({searchValue, setSearchValue}) => {
+    
+    const handleChange = (e) => {
+        setSearchValue(e.target.value)
+    }
+    
+    return (
+        <Input type="text" placeholder="Search a task" onChange={handleChange} w="95%"/>
+    )
+}
+
+
+
+export default Search
